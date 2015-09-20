@@ -8,7 +8,7 @@ class Gallery extends Application {
      * Index Page for this controller.
      */
     public function index() {
-// get all the images from our model
+        // get all the images from our model
         $pix = $this->images->all();
 
         // build an array of formatted cells for them
